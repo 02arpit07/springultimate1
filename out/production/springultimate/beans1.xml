@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="student" class="DependecyInjection.Student">
+        <property name="studentName" value="Arpit Vashisht"></property>
+        <property name="id" value="1710991136"></property>
+    </bean>
+
+    <bean id="id" class="DependecyInjection.Student">
+        <property name="studentName" value="Ram"></property>
+        <property name="id" value="108"></property>
+    </bean>
+</beans>
